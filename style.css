@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+     background-image: url("file:///home/scott/Downloads/website/index_files/background.jpeg ");
+     background-size: cover;
+     font-family: sans-serif;
+     margin: 0;
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     font-family: 'Maven Pro', sans-serif;
+     color: white;
+}
+
+section {
+  margin: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.intro {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin: 4% auto;
+     width: 70%;
+}
+ 
+.intro img {
+     width: 214px;
+     height: 214px;
+     border-radius: 128px;
+     margin: 0 104px;
+     border: dotted 5px greenyellow;
+ 
+}
+
+.text-intro h2 {
+
+     margin: 10px 0;
+     font-weight: lighter;
+     font-family: 'VT323', monospace;
+     font-size: 40px;
+     color: greenyellow;
+ }
+ 
+.title-bar {
+     background-image: url('file:///home/scott/Downloads/website/index_files/g.jpg');
+     color: rgb(0, 0, 0);
+     padding: 10px;
+     text-align: center;
+}
+
+.title-bar-btn {
+     background-color: #186266;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 5px;
+     border: 2px solid rgba(0, 229, 255, 0.784);
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+   /* Add a hover effect for the buttons */
+.button:hover {
+     background-color: #3e8e41;
+}
+
+.centre {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin: auto;
+     width: 75%;
+}
+
+.btn {
+     background-color: rgb(16, 0, 32);
+     /* color: white; */
+     border: none;
+     text-transform: uppercase;
+     font-size: 20px;
+     line-height: 46px;
+     width: 144px;
+     margin: 19px 69px;
+     border-radius: 10px;
+     border: 3px solid rgb(255, 238, 0);
+ }
+
+.fa{
+     color: white;
+     margin: 10px 15px 0 15px;
+ }   
